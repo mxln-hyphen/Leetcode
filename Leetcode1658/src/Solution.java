@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] nums = {1,1,4,2,3};
+        int[] nums = {5,2,3,1,1};
         int x = 5;
         Solution solution = new Solution();
 
@@ -11,31 +11,37 @@ public class Solution {
     }
 
     public int minOperations(int[] nums, int x) {
-        //窗口长度
-        int wlength = nums.length;
-
-        while (wlength>0) {
-            wlength = wlength - 1;
-            int wleft = 0;
-            int wright = wlength-1;
-            x = x - nums[wright+1];
-            int num = x;
-            if (num==0){
-                int answer=nums.length-wlength;
-                return answer;
-            }
-            //窗口滑动
-            for (int i = 0; i < nums.length-wlength; i++) {
-                wleft++;
-                wright++;
-                num=num-nums[wleft-1]+nums[wright];
-                if (num==0){
-                    int answer=nums.length-wlength;
-                    return answer;
+        int left = -1;
+        int right = 0;
+        int num = 0;
+        int answer = Integer.MAX_VALUE;
+        for (int i = right; i < nums.length; i++) {
+            num += nums[i];
+        }
+        while (left<right&right<=nums.length) {
+            if (num == x) {
+                if (answer > (left + 1) + (nums.length - right)) {
+                    answer = (left + 1) + (nums.length - right);
                 }
+                if (right < nums.length)
+                    num -= nums[right];
+                right++;
+            } else if (num > x) {
+                if (right < nums.length)
+                    num -= nums[right];
+                else break;
+                right++;
+            } else if (num < x) {
+                if (left < nums.length)
+                    num += nums[left + 1];
+                else break;
+                left++;
             }
         }
-        return -1;
+        if (answer == Integer.MAX_VALUE) {
+            return -1;
+        } else return answer;
+
     }
 
 
