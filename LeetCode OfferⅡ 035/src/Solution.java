@@ -11,6 +11,9 @@ class Solution {
     }
 
     public int findMinDifference(List<String> timePoints) {
+        if(timePoints.size()>60*24){
+            return 0;
+        }
         Map<Integer, Integer> map = new HashMap<>();
         int answer = Integer.MAX_VALUE;
         int earlytime = Integer.MAX_VALUE;
