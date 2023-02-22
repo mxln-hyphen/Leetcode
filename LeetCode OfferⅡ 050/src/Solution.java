@@ -18,17 +18,17 @@ class Solution {
         }
         answer = 0;
         this.targetSum = targetSum;
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(0, 1);
+        Map<Long, Integer> map = new HashMap<>();
+        map.put(0L, 1);
         PreOrderTraversal(root, 0, map);
         return answer;
     }
 
-    public void PreOrderTraversal(TreeNode node, int num, Map<Integer, Integer> map) {
+    public void PreOrderTraversal(TreeNode node, long num, Map<Long, Integer> map) {
         if (node != null) {
             num += node.val;
             if (map.containsKey(num - targetSum))
-                answer += map.getOrDefault(num- targetSum, 0);
+                answer += map.getOrDefault(num - targetSum, 0);
             if (map.containsKey(num)) {
                 map.replace(num, map.get(num) + 1);
             } else
