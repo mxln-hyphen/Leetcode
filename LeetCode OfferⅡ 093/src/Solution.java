@@ -2,11 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.methodname);
-    }
-
     public int lenLongestFibSubseq(int[] arr) {
         int[][] dp = new int[arr.length - 1][arr.length - 1];
         Map<Integer, Integer> map = new HashMap<>();
