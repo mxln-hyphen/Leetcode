@@ -4,11 +4,6 @@ import java.util.List;
 import java.util.Queue;
 
 class Solution {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.methodname);
-    }
-
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
         int i = 0, j = 0;
         List<int[]> answer = new ArrayList<>();
