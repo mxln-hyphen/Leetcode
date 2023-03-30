@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeetCode 1012/LeetCode 1012 至少有 1 位重复的数字.iml" filepath="$PROJECT_DIR$/LeetCode 1012/LeetCode 1012 至少有 1 位重复的数字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 1092/LeetCode 1092 最短公共超序列.iml" filepath="$PROJECT_DIR$/LeetCode 1092/LeetCode 1092 最短公共超序列.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 214/LeetCode 214 最小回文串.iml" filepath="$PROJECT_DIR$/LeetCode 214/LeetCode 214 最小回文串.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 2444/LeetCode 2444 统计定界子数组的数目.iml" filepath="$PROJECT_DIR$/LeetCode 2444/LeetCode 2444 统计定界子数组的数目.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 986/LeetCode 986 区间列表的交集.iml" filepath="$PROJECT_DIR$/LeetCode 986/LeetCode 986 区间列表的交集.iml" />
