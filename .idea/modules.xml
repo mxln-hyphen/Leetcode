@@ -6,9 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/LeetCode 1019/LeetCode 1019 链表中的下一个更大节点.iml" filepath="$PROJECT_DIR$/LeetCode 1019/LeetCode 1019 链表中的下一个更大节点.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 1041/LeetCode 1041 困于环中的机器人.iml" filepath="$PROJECT_DIR$/LeetCode 1041/LeetCode 1041 困于环中的机器人.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 1092/LeetCode 1092 最短公共超序列.iml" filepath="$PROJECT_DIR$/LeetCode 1092/LeetCode 1092 最短公共超序列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 1147/LeetCode 1147 段式回文.iml" filepath="$PROJECT_DIR$/LeetCode 1147/LeetCode 1147 段式回文.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 214/LeetCode 214 最小回文串.iml" filepath="$PROJECT_DIR$/LeetCode 214/LeetCode 214 最小回文串.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 2444/LeetCode 2444 统计定界子数组的数目.iml" filepath="$PROJECT_DIR$/LeetCode 2444/LeetCode 2444 统计定界子数组的数目.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 2683/LeetCode 2683 相邻值的按位异或.iml" filepath="$PROJECT_DIR$/LeetCode 2683/LeetCode 2683 相邻值的按位异或.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 291/LeetCode 291 单词规律II.iml" filepath="$PROJECT_DIR$/LeetCode 291/LeetCode 291 单词规律II.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 327/LeetCode 327  区间和的个数.iml" filepath="$PROJECT_DIR$/LeetCode 327/LeetCode 327  区间和的个数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 59/LeetCode 59 螺旋矩阵 II.iml" filepath="$PROJECT_DIR$/LeetCode 59/LeetCode 59 螺旋矩阵 II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 592/LeetCode 592 分数加减运算.iml" filepath="$PROJECT_DIR$/LeetCode 592/LeetCode 592 分数加减运算.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode 904/LeetCode 904 水果成篮.iml" filepath="$PROJECT_DIR$/LeetCode 904/LeetCode 904 水果成篮.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode 986/LeetCode 986 区间列表的交集.iml" filepath="$PROJECT_DIR$/LeetCode 986/LeetCode 986 区间列表的交集.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode OfferⅡ 001/LeetCode OfferⅡ 001.iml" filepath="$PROJECT_DIR$/LeetCode OfferⅡ 001/LeetCode OfferⅡ 001.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode Offer Ⅱ 002/LeetCode OfferⅡ 002.iml" filepath="$PROJECT_DIR$/LeetCode Offer Ⅱ 002/LeetCode OfferⅡ 002.iml" />
@@ -73,6 +79,7 @@
       <module fileurl="file://$PROJECT_DIR$/LeetCode1932/LeetCode1932.iml" filepath="$PROJECT_DIR$/LeetCode1932/LeetCode1932.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode LCP08/Leetcode LCP08.iml" filepath="$PROJECT_DIR$/Leetcode LCP08/Leetcode LCP08.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode1658/Leetcode1658.iml" filepath="$PROJECT_DIR$/Leetcode1658/Leetcode1658.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
